@@ -26,7 +26,8 @@ import java.util.List;
 public class CourseController {
     @Autowired
     CourseService courseService;
-
+    int a;
+//aaaaa
     //分页获取课程列表数据&多条件查询
     @PostMapping("findAllCourse")
     public R  findAllCourse(@RequestBody(required = false)CourseVo courseVo){
